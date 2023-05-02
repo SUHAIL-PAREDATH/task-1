@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const sentence = ' suhail_p';
+const camelCase = toCamelCase(sentence);
+
+
+function toCamelCase(str) {
+    return str.replace(/[_-]\w/g, match => match.slice(1).toUpperCase());
+  }
+ 
+  console.log(camelCase);
+    </script>
+</body>
+</html>
